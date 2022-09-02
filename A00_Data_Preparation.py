@@ -16,18 +16,19 @@ import seaborn as sns
 sns.set_theme(style="whitegrid")
 import datetime
 
+BASE_PATH = '/content/drive/MyDrive/Progetto_Web/Dataset_Script/Dataset/'
 
 # df1: contiene informazioni sugli abbonamenti fedeltà di ciascun account cliente
-df1 = pd.read_csv('raw_1_cli_fid.csv', sep = ';', na_values = '', encoding = 'latin-1')
+df1 = pd.read_csv(BASE_PATH + 'raw_1_cli_fid.csv', sep = ';', na_values = '', encoding = 'latin-1')
 # df2: contiene informazioni su ciascun account cliente e descrive le caratteristiche di esse, tra la prima tabella e la seconda ci sono dei duplicati, 
 # per esempio, perché un cliente può avere più tessere fedeltà o la stessa tessera fedeltà può appartenere a più clienti
-df2 = pd.read_csv('raw_2_cli_account.csv', sep = ';', na_values = '', encoding = 'latin-1')
+df2 = pd.read_csv(BASE_PATH + 'raw_2_cli_account.csv', sep = ';', na_values = '', encoding = 'latin-1')
 # df3: contiene informazioni sull'indirizzo corrispondente a un account cliente
-df3 = pd.read_csv('raw_3_cli_address.csv', sep = ';', na_values = '', encoding = 'latin-1')
+df3 = pd.read_csv(BASE_PATH + 'raw_3_cli_address.csv', sep = ';', na_values = '', encoding = 'latin-1')
 # df4: contiene informazioni sulle politiche sulla privacy accettate da ciascun cliente
-df4 = pd.read_csv('raw_4_cli_privacy.csv', sep = ';', na_values = '', encoding = 'latin-1')
+df4 = pd.read_csv(BASE_PATH + 'raw_4_cli_privacy.csv', sep = ';', na_values = '', encoding = 'latin-1')
 # df7: contiene le transazioni di acquisto e rimborso di ciascun cliente, è una delle parti più cospicue di questa base di dati
-df7 = pd.read_csv('raw_7_tic.csv', sep = ';', na_values = '', encoding = 'latin-1')
+df7 = pd.read_csv(BASE_PATH + 'raw_7_tic.csv', sep = ';', na_values = '', encoding = 'latin-1')
 
 """# df1"""
 
