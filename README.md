@@ -1,8 +1,5 @@
-<p align = "left">
-  <a href="http://datascience.disco.unimib.it/it/"><img src ="https://github.com/TStrada/Web-marketing-project/blob/main/Images/DataScienceUnimib.png" width = "45%"></a>
-</p>
 <p align="center">
-  <img src="https://github.com/TStrada/DSLab_WebMarketing/blob/d405eeae08e5f053cc004eb2d500843a383bcc63/Images/ThemeGithubWebMarketing.jpg" width="25%">
+  <img src="https://github.com/TStrada/DSLab_WebMarketing/blob/d405eeae08e5f053cc004eb2d500843a383bcc63/Images/ThemeGithubWebMarketing.jpg" width="100%">
 </p>
   <h6 align="center">a Digital Marketing Project</h6>
 <p align="center">
