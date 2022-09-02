@@ -34,7 +34,7 @@ The project is actually a simulaton of a typical request:
 
 <a name="data"></a>
 ## &#9741; &nbsp; Data
-Dataset can't be share for copyright reason
+Dataset can't be shared for copyright reason
 
 <a name="presentation"></a>
 ## &#9741; &nbsp; Presentation
