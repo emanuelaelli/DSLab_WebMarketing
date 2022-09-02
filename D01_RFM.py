@@ -52,7 +52,7 @@ import datetime
 
 
 df = pd.read_csv('df7.csv', decimal = ',', 
-                 encoding = 'latin-1', compression = 'gzip')
+                 encoding = 'latin-1')
 df.head()
 
 
@@ -80,8 +80,8 @@ df.dtypes
 
 
 ## Upload the dataset containing customers informations
-df_1 = pd.read_csv('df1_zip.csv', decimal = ',', 
-                   encoding = 'latin-1', compression = 'gzip')
+df_1 = pd.read_csv('df1.csv', decimal = ',', 
+                   encoding = 'latin-1')
 df_1.head(5)
 
 
