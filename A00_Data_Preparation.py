@@ -153,8 +153,8 @@ df_1_cli_fid_clean.info()
 df_1_cli_fid_clean.describe()
 
 df1 = df_1_cli_fid_clean
-df1.to_csv('df1.csv', index=False)
-df1.to_csv('df1_zip.csv', index=False, compression='gzip')
+df1.to_csv(BASE_PATH + 'df1.csv', index=False)
+df1.to_csv(BASE_PATH + 'df1_zip.csv', index=False, compression='gzip')
 
 #Check for duplicates
 print('Check for duplicates')
@@ -205,8 +205,8 @@ for i in df2['EMAIL_PROVIDER']:
 
 df2['EMAIL_PROVIDER'].value_counts()
 
-df2.to_csv('df2.csv', index=False)
-df2.to_csv('df2_zip.csv', index=False, compression='gzip')
+df2.to_csv(BASE_PATH + 'df2.csv', index=False)
+df2.to_csv(BASE_PATH + 'df2_zip.csv', index=False, compression='gzip')
 
 #Check for duplicates
 print('Check for duplicates')
@@ -237,8 +237,8 @@ df3.head()
 df2['ID_ADDRESS'].isin(df3['ID_ADDRESS']).value_counts()
 #df3['ID_ADDRESS'].isin(df2['ID_ADDRESS']).value_counts()
 
-df3.to_csv('df3.csv', index=False)
-df3.to_csv('df3_zip.csv', index=False, compression='gzip')
+df3.to_csv(BASE_PATH + 'df3.csv', index=False)
+df3.to_csv(BASE_PATH + 'df3_zip.csv', index=False, compression='gzip')
 
 """# df4"""
 
@@ -259,8 +259,8 @@ df1['ID_CLI'].isin(df4['ID_CLI']).value_counts()
 df4['ID_CLI'].isin(df1['ID_CLI']).value_counts()
 # tutti gli ID_CLI in df1 sono anche in df4 e viceversa
 
-df4.to_csv('df4.csv', index=False)
-df4.to_csv('df4__zip.csv', index=False, compression='gzip')
+df4.to_csv(BASE_PATH + 'df4.csv', index=False)
+df4.to_csv(BASE_PATH + 'df4__zip.csv', index=False, compression='gzip')
 
 """# df7"""
 
@@ -511,9 +511,9 @@ df7.describe()
 
 """### Save"""
 
-df7.to_csv('df7.csv', index=False)
-df7.to_csv('df7_zip.csv', index=False, compression='gzip')
+df7.to_csv(BASE_PATH + 'df7.csv', index=False)
+df7.to_csv(BASE_PATH + 'df7_zip.csv', index=False, compression='gzip')
 
 df7_churn = pd.merge(left=df_churn, right=df7, how='left', on='ID_CLI')
-df7_churn.to_csv('df7_churn.csv', index=False)
-df7_churn.to_csv('df7_churn_zip.csv', index=False, compression='gzip')
+df7_churn.to_csv(BASE_PATH + 'df7_churn.csv', index=False)
+df7_churn.to_csv(BASE_PATH + 'df7_churn_zip.csv', index=False, compression='gzip')
