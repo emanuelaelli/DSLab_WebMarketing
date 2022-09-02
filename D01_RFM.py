@@ -43,9 +43,6 @@ BASE_PATH = '/content/drive/MyDrive/Progetto_Web/Dataset_Script/Dataset/'
 # In[2]:
 
 
-# print(pd.__version__, np.__version__, re.__version__, scipy.__version__, 
-#      matplotlib.__version__, sns.__version__, squarify)
-
 
 # Import datasets previously cleaned (Look at Data Preparation)
 
