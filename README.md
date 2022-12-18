@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/emanuelaelli/Data_Management/blob/main/images/Loading.png" width="25%">
+  <a href="http://datascience.disco.unimib.it/it/"><img src ="https://github.com/emanuelaelli/Data_Management/blob/main/images/background.jpeg" width = "100%"></a>
 </p>
   <h6 align="center">a Digital Marketing Project</h6>
 <p align="center">
